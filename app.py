@@ -3,7 +3,7 @@ from flask import Flask , render_template,request
 
 
 
-
+#this is flask app
 app=Flask("firstapp")
 @app.route("/")
 def home():
